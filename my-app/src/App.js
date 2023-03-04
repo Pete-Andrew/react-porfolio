@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/pages/Home.js";
 import NavBar from "./components/NavBar.js";
 import About from "./components/pages/About.js";
+import Contact from "./components/pages/Contact.js";
 import Projects from "./components/pages/Projects.js";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/pages/Footer.js";
@@ -22,7 +23,7 @@ function App() {
           <Route path="about" element={<About />} />
           {/* <Route path="blog" element={<Blog />} /> */}
           {/* Define a route that will have descendant routes */}
-          {/* <Route path="contact/*" element={<Contact />} /> */}
+          <Route path="contact" element={<Contact />} />
         </Routes>
 
         <Footer />
