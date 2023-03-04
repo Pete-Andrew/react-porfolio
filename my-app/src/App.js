@@ -13,6 +13,29 @@ function App() {
 
   return (
     <Router>
+
+{/* <Wrapper>
+      <Title>Friends List</Title>
+      <FriendCard
+        name={friends[0].name}
+        image={friends[0].image}
+        occupation={friends[0].occupation}
+        location={friends[0].location}
+      />
+      <FriendCard
+        name={friends[1].name}
+        image={friends[1].image}
+        occupation={friends[1].occupation}
+        location={friends[1].location}
+      />
+      <FriendCard
+        name={friends[2].name}
+        image={friends[2].image}
+        occupation={friends[2].occupation}
+        location={friends[2].location}
+      />
+    </Wrapper> */}
+
       <div>
         <NavBar />
         {/* Wrap Route elements in a Routes component */}
@@ -21,17 +44,19 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          {/* <Route path="blog" element={<Blog />} /> */}
           {/* Define a route that will have descendant routes */}
           <Route path="contact" element={<Contact />} />
+          <Route path="projects" element={<Projects />} />
         </Routes>
 
         <Footer />
 
       </div>
     </Router>
-  );
 
+    
+
+  );
 
 }
 

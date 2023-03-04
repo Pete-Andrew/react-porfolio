@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
-
 
 //https://courses.bootcampspot.com/courses/3018/assignments/44678?module_item_id=832016
 

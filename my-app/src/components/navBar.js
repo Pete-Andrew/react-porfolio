@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-sm bg-light justify-content-end sticky-top">
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <a class="nav-link">
+    <nav className="navbar navbar-expand-sm bg-light justify-content-end sticky-top">
+      <ul className="navbar-nav">
+        <li className="nav-item ">
+          <a className="nav-link">
             <NavLink
               to="/"
               end
@@ -19,8 +19,8 @@ function NavBar() {
           </a>
         </li>
 
-        <li class="nav-item ">
-          <a class="nav-link">
+        <li className="nav-item ">
+          <a className="nav-link">
             <NavLink
               to="Projects"
               end
@@ -33,8 +33,8 @@ function NavBar() {
           </a>
         </li>
 
-        <li class="nav-item ">
-          <a class="nav-link">
+        <li className="nav-item ">
+          <a className="nav-link">
             <NavLink
               to="Contact"
               end
@@ -47,8 +47,8 @@ function NavBar() {
           </a>
         </li>
 
-        <li class="nav-item ">
-          <a class="nav-link">
+        <li className="nav-item ">
+          <a className="nav-link">
             <NavLink
               to="About"
               end
