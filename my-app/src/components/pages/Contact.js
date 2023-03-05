@@ -1,16 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "../NavBar";
-import Footer from "./Footer";
+import ContactDetailsForm from "./contactDetailsForm/contactDetailsForm";
 
 function Contact() {
   return (
     <div>
       
       <p>Contact!</p>
-             
-        
       
+      {ContactDetailsForm()};
       
     </div>
   );

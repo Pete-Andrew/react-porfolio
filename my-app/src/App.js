@@ -6,11 +6,9 @@ import Contact from "./components/pages/Contact.js";
 import Projects from "./components/pages/projects/Projects.js";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/pages/Footer.js";
-import Wrapper from "./components/Wrapper/index.js";
+import "./components/pages/projectCards.js/style.css"
 
 function App() {
-  // return <Home />;
-  // return <Projects/>;
 
   return (
     <Router>

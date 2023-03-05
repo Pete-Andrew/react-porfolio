@@ -1,11 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css";
+// import "./style.css";
+// import "../projects/ProjectStyle.css"
 
 
 function ProjectCards(props) {
   return (
-    <div className="d-md-inline-flex">
+    <div className="d-md-inline-flex page-wrapper">
 
     <div className="card">
         <div className="img-container">

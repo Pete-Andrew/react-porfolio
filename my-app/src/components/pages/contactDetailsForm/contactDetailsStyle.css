@@ -1,0 +1,30 @@
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 20%;
+}
+
+form {
+
+  width: 100%;
+  grid-auto-rows: auto;
+}
