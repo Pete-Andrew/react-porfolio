@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
       
-      <p>WHOO!</p>
+      <p>Contact!</p>
              
         
       

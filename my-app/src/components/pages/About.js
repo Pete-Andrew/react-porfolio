@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       
-      <p>WHee!</p>
+      <p>About!</p>
              
         
       

@@ -1,7 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "../NavBar";
-import Footer from "./Footer";
+import NavBar from "../../NavBar";
+import Footer from "../Footer";
+import "./style.css";
+
 
 function Projects(props) {
   return (
@@ -23,7 +25,6 @@ function Projects(props) {
             </li>
           </ul>
         </div>
-        {/* <span className="remove">𝘅</span> */}
       </div>
     </div>
   );
