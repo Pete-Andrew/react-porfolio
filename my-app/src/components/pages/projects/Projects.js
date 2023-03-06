@@ -2,54 +2,58 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectCards from "../projectCards.js/projectCards";
 import projects from "../../../projects.json";
-import "./ProjectStyle.css"; 
+import "./ProjectStyle.css";
 
 function Projects(props) {
   return (
-    <div>
+    <div className="d-flex flex-wrap">
       <ProjectCards
         name={projects[0].name}
         image={projects[0].image}
-        occupation={projects[0].occupation}
-        location={projects[0].location}
+        deployedRepo={projects[0].deployedRepo}
+        overview={projects[0].overview}
+        GitHubRepo={projects[0].GitHubRepo}
       />
 
       <ProjectCards
         name={projects[1].name}
         image={projects[1].image}
-        occupation={projects[1].occupation}
-        location={projects[1].location}
+        deployedRepo={projects[1].deployedRepo}
+        overview={projects[1].overview}
+        GitHubRepo={projects[1].GitHubRepo}
       />
-
       <ProjectCards
         name={projects[2].name}
         image={projects[2].image}
-        occupation={projects[2].occupation}
-        location={projects[2].location}
+        deployedRepo={projects[2].deployedRepo}
+        overview={projects[2].overview}
+        GitHubRepo={projects[2].GitHubRepo}
       />
 
       <ProjectCards
         name={projects[3].name}
         image={projects[3].image}
-        occupation={projects[3].occupation}
-        location={projects[3].location}
+        deployedRepo={projects[3].deployedRepo}
+        overview={projects[3].overview}
+        GitHubRepo={projects[3].GitHubRepo}
       />
 
       <ProjectCards
         name={projects[4].name}
         image={projects[4].image}
-        occupation={projects[4].occupation}
-        location={projects[4].location}
+        deployedRepo={projects[4].deployedRepo}
+        overview={projects[4].overview}
+        GitHubRepo={projects[4].GitHubRepo}
       />
 
       <ProjectCards
         name={projects[5].name}
         image={projects[5].image}
-        occupation={projects[5].occupation}
-        location={projects[5].location}
+        deployedRepo={projects[5].deployedRepo}
+        overview={projects[5].overview}
+        GitHubRepo={projects[5].GitHubRepo}
       />
     </div>
-
   );
 }
 

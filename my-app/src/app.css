@@ -1,0 +1,21 @@
+#root {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: end;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+}
+
+/* OBJECT FIT, OBJECT POSITION */

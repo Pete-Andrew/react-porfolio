@@ -3,32 +3,30 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import "./style.css";
 // import "../projects/ProjectStyle.css"
 
-
 function ProjectCards(props) {
   return (
-    <div className="d-md-inline-flex page-wrapper">
-
-    <div className="card">
+    <div>
+      <div className="card">
         <div className="img-container">
           <img alt={props.name} src={props.image} />
         </div>
         <div className="content">
           <ul>
             <li>
-              <strong>Name:</strong> {props.name}
+              <strong>Project Name:</strong> {props.name}
             </li>
             <li>
-              <strong>Occupation:</strong> {props.occupation}
+              <strong>Overview:</strong> {props.overview}
             </li>
             <li>
-              <strong>Address:</strong> {props.location}
+               <a href= {props.deployedRepo} > <strong>Deployed repo address</strong></a>
+            </li>
+            <li>
+              <strong>GitHub repo address:</strong> {props.GitHubRepo}
             </li>
           </ul>
         </div>
       </div>
-
-    
-
     </div>
   );
 }
