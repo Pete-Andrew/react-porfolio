@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./components/pages/Home/Home.js";
 import NavBar from "./components/NavBar.js";
 import About from "./components/pages/about/About.js";
-import Contact from "./components/pages/contact/Contact.js";
+import Contact from "./components/pages/Contact.js";
 import Projects from "./components/pages/projects/Projects.js";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/pages/footer/Footer.js";
