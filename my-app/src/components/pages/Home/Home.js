@@ -7,14 +7,11 @@ import "./home.css";
 function Home() {
   return (
 
-    
-    <div id="homepage" >
-      {/* {Jumbotron()} */}
         
-      <div>
+      <div  id="homepage">
       {HomeContainer()}
       </div>
-    </div>
+   
   );
 }
 

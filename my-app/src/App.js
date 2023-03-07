@@ -8,6 +8,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/pages/footer/Footer.js";
 import "./app.css";
 
+
 function App() {
   return (
     <Router>

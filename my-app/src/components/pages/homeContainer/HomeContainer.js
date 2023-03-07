@@ -6,7 +6,7 @@ function HomeContainer () {
    return (
 
 <div id="contentContainer" className="container-fluid justify-content-center">
-    <h1>My First Bootstrap Page</h1>
+    <h1>Welcome to my Portfolio!</h1>
       <div id="pete" className="rounded-circle flex" alt="pete on dartmoor"></div>
       <p>This part is inside a .container class.</p> 
       <p>The .container class provides a responsive fixed width container.</p>

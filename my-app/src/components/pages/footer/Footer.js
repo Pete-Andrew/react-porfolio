@@ -5,15 +5,15 @@ function Footer () {
        return (
          
            <footer className="footer-card text-center">
-             <div className="footer-card-header">Footer</div>
+             <div className="footer-card-header"></div>
              <div className="footer-card-body">
-               <h5 className="footer-card-title">Special title treatment</h5>
+               {/* <h5 className="footer-card-title">Special title treatment</h5>
                <p className="footer-card-text">
                  With supporting text below as a natural lead-in to additional
                  content.
-               </p>
+               </p> */}
                <a href="#" className="btn btn-primary">
-                 Go somewhere
+                 Back to top
                </a>
              </div>
              

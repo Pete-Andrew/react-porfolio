@@ -1,4 +1,7 @@
 .footer-card {
-
+    padding-top: 2%;
     width: 100%;
+    background-color: rgba(188, 241, 225, 0.7);
+    backdrop-filter: blur(2px);
+
 }
