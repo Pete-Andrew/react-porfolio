@@ -20,7 +20,10 @@ input {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 20%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 form {

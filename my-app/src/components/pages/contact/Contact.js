@@ -5,7 +5,7 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <div id="contactPage">
+    <div id="contactContainer" className="container-fluid justify-content-center">
       <p>Contact!</p>
       {ContactDetailsForm()};
     </div>
