@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Jumbotron from "../jumbotron/Jumbotron";
+// import Jumbotron from "../jumbotron/Jumbotron";
 import HomeContainer from "../homeContainer/HomeContainer";
 import "./home.css";
 

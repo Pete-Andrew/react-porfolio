@@ -3,6 +3,9 @@
     background-color: aquamarine;
     width: 50%;
     margin-top: 5%; 
+
+    
+  
 }
 
 #pete {
@@ -16,6 +19,7 @@
 
     border: 3px solid #7fbe5a;
     border-radius: 4px;
-
+    margin-left: auto;
+    margin-right: auto;
 
 }
