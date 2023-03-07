@@ -31,3 +31,7 @@ form {
   width: 100%;
   grid-auto-rows: auto;
 }
+
+.emailetc {
+  padding-top: 50%;
+}

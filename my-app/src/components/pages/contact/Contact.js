@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div id="contactContainer" className="container-fluid justify-content-center">
       <p>Contact!</p>
-      {ContactDetailsForm()};
+      {ContactDetailsForm()}
     </div>
   );
 }
