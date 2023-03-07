@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="navbar bg-light sticky-top">
+    <nav id="navBarID" className="navbar bg-light sticky-top">
       <ul className="navbar-nav">
         <li className="nav-item ">
           <NavLink

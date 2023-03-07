@@ -9,7 +9,7 @@ function Home() {
 
     
     <div id="homepage" >
-      {Jumbotron()}
+      {/* {Jumbotron()} */}
         
       <div>
       {HomeContainer()}

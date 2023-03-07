@@ -1,0 +1,21 @@
+#contentContainer {
+    text-align: center;
+    background-color: aquamarine;
+    width: 50%;
+    margin-top: 5%; 
+}
+
+#pete {
+
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../../images/pete-on-dartmoor.jpg");
+    background-size: 150% 150%;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+
+    border: 3px solid #7fbe5a;
+    border-radius: 4px;
+
+
+}
