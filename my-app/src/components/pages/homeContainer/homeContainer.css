@@ -1,16 +1,25 @@
 #contentContainer {
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255, 0.9);
+    backdrop-filter: blur(18px);
     width: 50%;
-    margin-top: 5%; 
-    border-radius: 25px;
+    margin-top: 10%; 
+    box-shadow: 20px 20px 50px rgb(26, 31, 26);
+    /* border-radius: 25px; */
     padding-top: 2%;
     padding-bottom: 2%;
-    box-shadow: 20px 20px 50px rgb(45, 80, 45);
-
     
-  
+    width: 100%;
+
+   
 }
+
+/* #contentContainer:hover {
+    background-color:  rgba(199, 255, 167, 0.8);
+    transition: 0.3s;
+    box-shadow: 20px 20px 50px rgb(26, 31, 26);
+    backdrop-filter: blur(18px);
+  } */
 
 #pete {
 
@@ -36,3 +45,4 @@
     padding-right: 4%;
    
 }
+
