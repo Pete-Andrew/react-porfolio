@@ -20,7 +20,7 @@ function Footer () {
              <div className="card-footer text-muted">
                <div className="footer-copyright text-center py-3">
                  © 2020 Copyright:
-                 <a href="/"> MDBootstrap.com</a>
+                 <a href="/"> Peter Andrew</a>
                </div>
              </div>
 
