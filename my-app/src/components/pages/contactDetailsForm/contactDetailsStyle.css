@@ -32,6 +32,13 @@ form {
   grid-auto-rows: auto;
 }
 
-.emailetc {
-  padding-top: 50%;
+#emailetc {
+  padding-top: 7%;
+  
+}
+
+.linksStyling {
+
+  padding-left: 2%;
+  padding-right: 2%;
 }

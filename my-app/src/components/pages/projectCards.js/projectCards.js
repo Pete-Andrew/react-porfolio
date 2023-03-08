@@ -19,10 +19,10 @@ function ProjectCards(props) {
               <strong>Overview:</strong> {props.overview}
             </li>
             <li>
-               <a href= {props.deployedRepo} > <strong>Deployed repo address</strong></a>
+               <a href= {props.deployedRepo} > <strong>Link to Deployed repo</strong></a>
             </li>
             <li>
-              <strong>GitHub repo address:</strong> {props.GitHubRepo}
+                <a href= {props.GitHubRepo} ><strong>Link to GitHub repo</strong></a>
             </li>
           </ul>
         </div>
