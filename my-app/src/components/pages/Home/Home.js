@@ -4,12 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HomeContainer from "../homeContainer/HomeContainer";
 import "./home.css";
 
+
 function Home() {
   return (
 
         
       <div  id="homepage">
       {HomeContainer()}
+      {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
       </div>
    
   );

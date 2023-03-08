@@ -43,11 +43,11 @@
     },
     {
       "id": 6,
-      "name": "Green Blob",
-      "image": "https://raw.githubusercontent.com/Pete-Andrew/greenblob/main/Assets/images/green-blob-game-screenshot.jpg",
-      "overview": "A simple app for experimenting usuing canvas and WASD controls written in JS",
-      "deployedRepo": "https://pete-andrew.github.io/greenblob/",
-      "GitHubRepo": "https://github.com/Pete-Andrew/greenblob"    
+      "name": "Random Password Generator",
+      "image": "https://raw.githubusercontent.com/Pete-Andrew/password-challenge/main/assets/password%20generator%20screenshot.jpg",
+      "overview": "A app that produces a random password once parameters are set using prompts and javascript",
+      "deployedRepo": "https://pete-andrew.github.io/password-challenge/",
+      "GitHubRepo": "https://github.com/Pete-Andrew/password-challenge"    
     }
   ]
   
