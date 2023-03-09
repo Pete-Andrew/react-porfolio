@@ -9,13 +9,7 @@ function Resume() {
     <div id="resumeContainer" className="container-fluid justify-content-center">
      
       <div id="innerResumeContainer">  
-        <h1>Welcome to my resumé!</h1>
-        
-        {/* <p>This part is inside a .container class.</p>  */}
-        
-      
-        <h1></h1>
-
+        <h1>Welcome to my resumé!</h1> 
              
         <a href = {Pdf} target = "_blank">Click this link to open resumé Pdf</a>
  
