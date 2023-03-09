@@ -14,7 +14,7 @@ function Resume() {
         {/* <p>This part is inside a .container class.</p>  */}
         
       
-        <h1>CV</h1>
+        <h1></h1>
 
              
         <a href = {Pdf} target = "_blank">Click this link to open resumé Pdf</a>
