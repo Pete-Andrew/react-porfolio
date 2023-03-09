@@ -1,7 +1,7 @@
 #resumeContainer   
     {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
     background-color: aquamarine;
     width: 50%;
@@ -16,5 +16,5 @@
     }
 
 #innerResumeContainer {
-    margin-top: 10%;
+    margin-top: 7%;
 }

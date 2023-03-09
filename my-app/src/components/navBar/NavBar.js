@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav id="navBarID" className="navbar sticky-top"> 
       <ul className="navbar-nav">
-        <li className="nav-item ">
+        <li className="nav-item">
           <NavLink
             to="/"
             end

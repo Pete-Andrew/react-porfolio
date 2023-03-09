@@ -8,7 +8,8 @@ function HomeContainer () {
 <div id="contentContainer" className="container-fluid justify-content-center">
     <h1>Welcome to my Portfolio!</h1>
       <div id="pete" className="rounded-circle flex" alt="pete on dartmoor"></div>
-      <p>brand statement</p> 
+      <h2>brand statement</h2> 
+      <p> I am a programmer and digital artist! </p>
       
       <a className="emailetc" href= "https://github.com/Pete-Andrew"> GitHub Profile</a>
       <a className="emailetc" href= "https://www.linkedin.com/in/peter-a-2143b33a/"> LinkedIn</a>

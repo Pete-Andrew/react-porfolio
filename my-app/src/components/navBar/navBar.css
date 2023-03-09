@@ -1,4 +1,14 @@
 #navBarID {
     background-color: rgba(188, 241, 225, 0.7);
     backdrop-filter: blur(2px);
+    
+}
+
+.navbar-nav {
+    margin-right: 10vh;
+}
+
+.nav-item {
+    padding-left: 2%;
+    padding-right: 2%;
 }

@@ -6,7 +6,7 @@ import Pdf from "./Programmer-CV-Peter-Andrew.pdf";
 function Resume() {
   return (     
 
-    <div id="resumeContainer" className="container-fluid flex justify-content-center">
+    <div id="resumeContainer" className="container-fluid justify-content-center">
      
       <div id="innerResumeContainer">  
         <h1>Welcome to my resumé!</h1>
