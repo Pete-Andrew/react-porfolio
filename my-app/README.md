@@ -32,6 +32,10 @@ This product is licenced under the MIT licence.
 
 N/a
 
+## Screenshot: 
+
+![react portfolio screenshot](react-portfolio-screenshot.jpg)
+
 ## Tests:
 
 N/a
