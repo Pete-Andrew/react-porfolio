@@ -6,7 +6,7 @@ import "./ProjectStyle.css";
 
 function Projects(props) {
   return (
-    <div className="d-flex flex-wrap">
+    <div className="d-flex flex-wrap align-items-stretch">
       <ProjectCards
         name={projects[0].name}
         image={projects[0].image}
