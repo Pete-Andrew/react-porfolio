@@ -20,6 +20,8 @@ This app is a portfolio website written using React and router. The projects pag
 
 webpage
 
+https://react-portfolio-pete-andrew.netlify.app
+
 ## Usage:
 
 N/a
