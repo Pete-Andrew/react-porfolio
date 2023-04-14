@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./resume.css";
-import Pdf from "./Programmer-CV-Peter-Andrew.pdf";
+import Pdf from "./Programmer-and-digital-art-CV.pdf";
 
 function Resume() {
   return (     
